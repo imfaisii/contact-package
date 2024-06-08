@@ -5,7 +5,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Haamzaaay",
+      "name": "imfaisii",
       "email": "85665625+Haamzaaay@users.noreply.github.com"
     }
   ],
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "haamzaaay\\contact\\": "src/"
+      "imfaisii\\contact\\": "src/"
     }
   },
   "minimum-stability": "dev",
@@ -23,7 +23,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "haamzaaay\\contact\\ContactServiceProvider"
+        "imfaisii\\contact\\ContactServiceProvider"
       ]
 
     }
