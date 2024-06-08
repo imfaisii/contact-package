@@ -1,6 +1,6 @@
 <?php
 
-namespace haamzaaay\contact;
+namespace imfaisii\contact;
 
 use Illuminate\Support\ServiceProvider;
 
