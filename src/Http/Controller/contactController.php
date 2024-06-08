@@ -1,9 +1,9 @@
 <?php
 
-namespace haamzaaay\contact\Http\Controller;
+namespace imfaisii\contact\Http\Controller;
 
 use App\Http\Controllers\Controller;
-use haamzaaay\contact\Model\Contact;
+use imfaisii\contact\Model\Contact;
 use Illuminate\Http\Request;
 
 class contactController extends Controller
