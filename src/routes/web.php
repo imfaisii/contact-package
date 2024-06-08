@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-use haamzaaay\contact\Http\Controller\contactController;
+use imfaisii\contact\Http\Controller\contactController;
 
 Route::group(['namespace' => 'haamaaay/contact/Http/Controller'], function () {
     Route::get('contact',[contactController::class,'index'])->name('contact_index');
