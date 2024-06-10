@@ -5,6 +5,7 @@ namespace imfaisii\contact\Http\Controller;
 use App\Http\Controllers\Controller;
 use imfaisii\contact\Model\Contact;
 use Illuminate\Http\Request;
+use imfaisii\contact\Http\Requests\StoreContactRequest;
 
 class contactController extends Controller
 {
@@ -15,7 +16,7 @@ class contactController extends Controller
         return view('contact::contact');
     }
 
-    public function store(Request $request)
+    public function store(StoreContactRequest $request)
     {
         try {
             Contact::updateOrCreate([
